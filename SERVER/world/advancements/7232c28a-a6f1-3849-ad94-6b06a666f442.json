@@ -290,6 +290,7 @@
       "minecraft:snowy_slopes": "2026-10-24 01:50:49 +0000",
       "minecraft:old_growth_pine_taiga": "2026-10-18 18:08:23 +0000",
       "minecraft:forest": "2026-10-24 02:08:34 +0000",
+      "minecraft:taiga": "2026-10-24 16:45:50 +0000",
       "minecraft:deep_cold_ocean": "2026-10-19 17:27:39 +0000",
       "minecraft:ice_spikes": "2026-10-19 18:41:49 +0000",
       "minecraft:frozen_ocean": "2026-10-18 05:30:44 +0000",
@@ -298,6 +299,8 @@
       "minecraft:jungle": "2026-10-24 02:08:37 +0000",
       "minecraft:cherry_grove": "2026-10-19 17:17:23 +0000",
       "minecraft:windswept_hills": "2026-10-19 17:23:11 +0000",
+      "minecraft:old_growth_spruce_taiga": "2026-10-24 16:46:31 +0000",
+      "minecraft:snowy_beach": "2026-10-24 16:45:22 +0000",
       "minecraft:savanna_plateau": "2026-10-23 23:03:05 +0000",
       "minecraft:beach": "2026-10-24 02:08:50 +0000",
       "minecraft:stony_peaks": "2026-10-23 23:03:15 +0000",
@@ -897,6 +900,7 @@
       "minecraft:zombified_piglin": "2026-10-19 03:02:11 +0000",
       "minecraft:witch": "2026-10-18 18:22:29 +0000",
       "minecraft:bogged": "2026-10-19 16:02:53 +0000",
+      "minecraft:ender_dragon": "2026-10-24 16:59:05 +0000",
       "minecraft:cave_spider": "2026-10-22 23:36:04 +0000",
       "minecraft:piglin": "2026-10-23 02:01:51 +0000",
       "minecraft:silverfish": "2026-10-18 04:56:46 +0000",
@@ -2213,60 +2217,24 @@
     },
     "done": true
   },
-  "supplementaries:recipe/doormat_2": {
+  "the_bumblezone:teleportation/teleport_to_bumblezone_pearl": {
     "criteria": {
-      "has_tag_c_crops_flax_1": "2026-10-24 04:17:37 +0000"
+      "teleport_to_bumblezone_pearl": "2026-10-24 03:22:03 +0000"
     },
     "done": true
   },
-  "ae2:main/crafting_terminal": {
+  "the_bumblezone:biomes/discover_all_biomes": {
     "criteria": {
-      "certus": "2026-10-24 04:47:55 +0000"
+      "crystal_canyon": "2026-10-24 03:24:43 +0000",
+      "sugar_water_floor": "2026-10-24 03:24:09 +0000",
+      "hive_wall": "2026-10-24 03:22:10 +0000",
+      "hive_pillar": "2026-10-24 03:23:05 +0000"
     },
-    "done": true
-  },
-  "supplementaries:recipe/rope": {
-    "criteria": {
-      "has_tag_c_crops_flax_1": "2026-10-24 04:17:37 +0000"
-    },
-    "done": true
-  },
-  "refinedstorage:autocrafting": {
-    "criteria": {
-      "autocrafter_in_inventory": "2026-10-24 05:11:00 +0000"
-    },
-    "done": true
-  },
-  "ae2:main/presses": {
-    "criteria": {
-      "calculation": "2026-10-24 03:55:39 +0000",
-      "silicon": "2026-10-24 03:53:52 +0000",
-      "engineering": "2026-10-24 03:53:45 +0000",
-      "logic": "2026-10-24 04:41:31 +0000"
-    },
-    "done": true
+    "done": false
   },
   "the_bumblezone:structures/enter_garden": {
     "criteria": {
       "in_hanging_garden": "2026-10-24 03:24:45 +0000"
-    },
-    "done": true
-  },
-  "dimstorage:dimensional_chest": {
-    "criteria": {
-      "inv_changed": "2026-10-24 05:07:08 +0000"
-    },
-    "done": true
-  },
-  "ae2:main/network1": {
-    "criteria": {
-      "cable": "2026-10-24 04:59:23 +0000"
-    },
-    "done": true
-  },
-  "ae2:main/storage_bus": {
-    "criteria": {
-      "part": "2026-10-24 04:54:36 +0000"
     },
     "done": true
   },
@@ -2282,24 +2250,102 @@
     },
     "done": true
   },
+  "ae2:main/presses": {
+    "criteria": {
+      "calculation": "2026-10-24 03:55:39 +0000",
+      "silicon": "2026-10-24 03:53:52 +0000",
+      "engineering": "2026-10-24 03:53:45 +0000",
+      "logic": "2026-10-24 04:41:31 +0000"
+    },
+    "done": true
+  },
   "ae2:main/controller": {
     "criteria": {
       "certus": "2026-10-24 03:58:40 +0000"
     },
     "done": true
   },
-  "the_bumblezone:biomes/discover_all_biomes": {
+  "supplementaries:recipe/doormat_2": {
     "criteria": {
-      "crystal_canyon": "2026-10-24 03:24:43 +0000",
-      "sugar_water_floor": "2026-10-24 03:24:09 +0000",
-      "hive_wall": "2026-10-24 03:22:10 +0000",
-      "hive_pillar": "2026-10-24 03:23:05 +0000"
+      "has_tag_c_crops_flax_1": "2026-10-24 04:17:37 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/rope": {
+    "criteria": {
+      "has_tag_c_crops_flax_1": "2026-10-24 04:17:37 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/crafting_terminal": {
+    "criteria": {
+      "certus": "2026-10-24 04:47:55 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/storage_bus": {
+    "criteria": {
+      "part": "2026-10-24 04:54:36 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/network1": {
+    "criteria": {
+      "cable": "2026-10-24 04:59:23 +0000"
+    },
+    "done": true
+  },
+  "dimstorage:dimensional_chest": {
+    "criteria": {
+      "inv_changed": "2026-10-24 05:07:08 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:autocrafting": {
+    "criteria": {
+      "autocrafter_in_inventory": "2026-10-24 05:11:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2026-10-24 16:59:05 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:progression/pinnacle": {
+    "criteria": {
+      "kill_ender_dragon": "2026-10-24 16:59:05 +0000"
     },
     "done": false
   },
-  "the_bumblezone:teleportation/teleport_to_bumblezone_pearl": {
+  "integratedterminals:storage_terminal/gui_storage_terminal": {
     "criteria": {
-      "teleport_to_bumblezone_pearl": "2026-10-24 03:22:03 +0000"
+      "criteria_0": "2026-10-24 16:12:48 +0000"
+    },
+    "done": true
+  },
+  "silentgear:the_end": {
+    "criteria": {
+      "entered_the_end": "2026-10-24 16:51:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-10-24 16:49:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-10-24 16:51:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-10-24 16:51:22 +0000"
     },
     "done": true
   },
