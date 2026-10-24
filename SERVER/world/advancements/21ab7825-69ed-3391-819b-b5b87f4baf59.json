@@ -222,6 +222,7 @@
       "frozen_pine_taiga": "2026-10-18 21:38:17 +0000",
       "icy_heights": "2026-10-18 05:44:14 +0000",
       "infernal_holt": "2026-10-19 01:45:12 +0000",
+      "redstone_abyss": "2026-10-24 19:37:58 +0000",
       "cold_boreal_taiga": "2026-10-18 05:39:09 +0000"
     },
     "done": false
@@ -276,10 +277,14 @@
     "criteria": {
       "minecraft:pillager": "2026-10-19 01:01:14 +0000",
       "minecraft:cave_spider": "2026-10-18 21:20:41 +0000",
+      "minecraft:piglin": "2026-10-24 19:30:36 +0000",
+      "minecraft:zombified_piglin": "2026-10-24 19:35:53 +0000",
       "minecraft:enderman": "2026-10-18 05:43:58 +0000",
       "minecraft:stray": "2026-10-18 05:48:19 +0000",
+      "minecraft:magma_cube": "2026-10-24 19:34:28 +0000",
       "minecraft:witch": "2026-10-18 06:14:45 +0000",
       "minecraft:spider": "2026-10-18 06:12:41 +0000",
+      "minecraft:piglin_brute": "2026-10-24 19:31:32 +0000",
       "minecraft:zombie": "2026-10-18 05:46:32 +0000",
       "minecraft:zombie_villager": "2026-10-18 21:11:52 +0000"
     },
@@ -1498,77 +1503,21 @@
     },
     "done": true
   },
-  "supplementaries:recipe/dragon_banner_pattern": {
-    "criteria": {
-      "has_item_minecraft_paper_1": "2026-10-19 00:26:14 +0000"
-    },
-    "done": true
-  },
   "deeperdarker:main/root": {
     "criteria": {
       "deep_dark": "2026-10-18 23:35:50 +0000"
     },
     "done": true
   },
-  "supplementaries:recipe/sconce_soul": {
+  "actuallyadditions:pickup_coffee": {
     "criteria": {
-      "has_tag_c_nuggets_iron_2": "2026-10-18 23:52:47 +0000"
+      "coffee_beans": "2026-10-18 23:38:52 +0000"
     },
     "done": true
   },
-  "create:andesite_alloy": {
+  "supplementaries:recipe/feather_block": {
     "criteria": {
-      "0": "2026-10-18 23:53:01 +0000"
-    },
-    "done": true
-  },
-  "create:water_wheel": {
-    "criteria": {
-      "0": "2026-10-19 00:03:21 +0000"
-    },
-    "done": true
-  },
-  "create:andesite_casing": {
-    "criteria": {
-      "0": "2026-10-18 23:54:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2026-10-19 01:44:13 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/lumisene_bucket": {
-    "criteria": {
-      "has_item_minecraft_bucket_2": "2026-10-19 00:01:47 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:eternal_expedition": {
-    "criteria": {
-      "mycotoxic_undergrowth": "2026-10-19 01:44:15 +0000",
-      "infernal_holt": "2026-10-19 01:45:12 +0000"
-    },
-    "done": false
-  },
-  "create:wrench_goggles": {
-    "criteria": {
-      "0": "2026-10-19 01:28:39 +0000",
-      "1": "2026-10-19 00:12:35 +0000"
-    },
-    "done": true
-  },
-  "create:rose_quartz": {
-    "criteria": {
-      "0": "2026-10-19 00:27:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2026-10-19 01:01:14 +0000"
+      "has_item_minecraft_feather_1": "2026-10-18 23:39:25 +0000"
     },
     "done": true
   },
@@ -1584,93 +1533,9 @@
     },
     "done": true
   },
-  "actuallyadditions:pickup_coffee": {
-    "criteria": {
-      "coffee_beans": "2026-10-18 23:38:52 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/plant_all_crops": {
-    "criteria": {
-      "sugar_cane": "2026-10-19 00:53:13 +0000"
-    },
-    "done": false
-  },
-  "aether:the_aether": {
-    "criteria": {
-      "the_aether": "2026-10-19 01:49:07 +0000"
-    },
-    "done": true
-  },
-  "create:mechanical_pump_0": {
-    "criteria": {
-      "0": "2026-10-19 01:21:51 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/present": {
-    "criteria": {
-      "has_item_minecraft_paper_1": "2026-10-19 00:26:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2026-10-19 01:44:13 +0000"
-    },
-    "done": true
-  },
-  "aether:enter_aether": {
-    "criteria": {
-      "enter_aether": "2026-10-19 01:49:07 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipe/sconce_lever": {
     "criteria": {
       "has_item_minecraft_redstone_2": "2026-10-18 23:42:34 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/candy": {
-    "criteria": {
-      "has_item_minecraft_paper_2": "2026-10-19 00:26:14 +0000"
-    },
-    "done": true
-  },
-  "create:mechanical_press": {
-    "criteria": {
-      "0": "2026-10-19 00:10:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2026-10-19 01:04:39 +0000"
-    },
-    "done": true
-  },
-  "silentgear:nether": {
-    "criteria": {
-      "entered_nether": "2026-10-19 01:44:13 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/teleport_to_grave": {
-    "criteria": {
-      "coded_trigger": "2026-10-19 00:34:43 +0000"
-    },
-    "done": true
-  },
-  "ars_nouveau:runic_spanner": {
-    "criteria": {
-      "has_runic_spanner": "2026-10-19 01:28:39 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/feather_block": {
-    "criteria": {
-      "has_item_minecraft_feather_1": "2026-10-18 23:39:25 +0000"
     },
     "done": true
   },
@@ -1680,15 +1545,70 @@
     },
     "done": true
   },
-  "tombstone:adventure/strong_or_careful": {
+  "supplementaries:recipe/sconce_soul": {
     "criteria": {
-      "coded_trigger": "2026-10-19 00:34:04 +0000"
+      "has_tag_c_nuggets_iron_2": "2026-10-18 23:52:47 +0000"
     },
     "done": true
   },
-  "create:shifting_gears": {
+  "supplementaries:recipe/slidy_block": {
     "criteria": {
-      "0": "2026-10-19 00:45:04 +0000"
+      "has_tag_c_nuggets_iron_1": "2026-10-18 23:52:47 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2026-10-18 23:53:01 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2026-10-18 23:54:17 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lumisene_bucket": {
+    "criteria": {
+      "has_item_minecraft_bucket_2": "2026-10-19 00:01:47 +0000"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2026-10-19 00:03:21 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2026-10-19 00:10:52 +0000"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2026-10-19 01:28:39 +0000",
+      "1": "2026-10-19 00:12:35 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/dragon_banner_pattern": {
+    "criteria": {
+      "has_item_minecraft_paper_1": "2026-10-19 00:26:14 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/present": {
+    "criteria": {
+      "has_item_minecraft_paper_1": "2026-10-19 00:26:14 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/candy": {
+    "criteria": {
+      "has_item_minecraft_paper_2": "2026-10-19 00:26:14 +0000"
     },
     "done": true
   },
@@ -1704,9 +1624,192 @@
     },
     "done": true
   },
-  "supplementaries:recipe/slidy_block": {
+  "create:rose_quartz": {
     "criteria": {
-      "has_tag_c_nuggets_iron_1": "2026-10-18 23:52:47 +0000"
+      "0": "2026-10-19 00:27:09 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2026-10-19 00:34:04 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2026-10-19 00:34:43 +0000"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2026-10-19 00:45:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sugar_cane": "2026-10-19 00:53:13 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-10-19 01:01:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-10-19 01:04:39 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2026-10-19 01:21:51 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:runic_spanner": {
+    "criteria": {
+      "has_runic_spanner": "2026-10-19 01:28:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-10-19 01:44:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-10-19 01:44:13 +0000"
+    },
+    "done": true
+  },
+  "silentgear:nether": {
+    "criteria": {
+      "entered_nether": "2026-10-19 01:44:13 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:eternal_expedition": {
+    "criteria": {
+      "mycotoxic_undergrowth": "2026-10-19 01:44:15 +0000",
+      "infernal_holt": "2026-10-19 01:45:12 +0000",
+      "redstone_abyss": "2026-10-24 19:37:58 +0000"
+    },
+    "done": false
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2026-10-19 01:49:07 +0000"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2026-10-19 01:49:07 +0000"
+    },
+    "done": true
+  },
+  "silentgear:nether_plants": {
+    "criteria": {
+      "banana": "2026-10-24 19:27:19 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-10-24 19:23:23 +0000",
+      "minecraft:warped_forest": "2026-10-24 19:37:34 +0000"
+    },
+    "done": false
+  },
+  "supplementaries:recipe/ash_brick": {
+    "criteria": {
+      "has_tag_c_ash_1": "2026-10-24 19:34:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2026-10-24 19:33:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-10-24 19:34:37 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2026-10-24 19:33:51 +0000"
+    },
+    "done": true
+  },
+  "tombstone:event/root": {
+    "criteria": {
+      "halloween": "2026-10-24 18:50:14 +0000"
+    },
+    "done": true
+  },
+  "silentgear:crimson_iron": {
+    "criteria": {
+      "get_ingot": "2026-10-24 19:33:26 +0000"
+    },
+    "done": false
+  },
+  "silentgear:blaze_gold": {
+    "criteria": {
+      "get_item": "2026-10-24 19:33:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stonecutting/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-10-24 19:29:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2026-10-24 19:27:08 +0000"
+    },
+    "done": true
+  },
+  "tombstone:event/halloween": {
+    "criteria": {
+      "coded_trigger": "2026-10-24 18:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-10-24 19:25:48 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/netherite_trapdoor": {
+    "criteria": {
+      "has_item_minecraft_netherite_scrap_2": "2026-10-24 19:02:47 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/netherite_door": {
+    "criteria": {
+      "has_item_minecraft_netherite_scrap_2": "2026-10-24 19:02:47 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-10-24 19:29:11 +0000"
     },
     "done": true
   },
