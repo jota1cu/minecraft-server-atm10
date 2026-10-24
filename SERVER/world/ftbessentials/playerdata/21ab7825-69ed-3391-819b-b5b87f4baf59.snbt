@@ -3,19 +3,19 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "minecraft:overworld", x: -2309, y: 152, z: 1958, xRot: 2.7000134f, yRot: 58.492275f }
+	last_seen: { dim: "the_bumblezone:the_bumblezone", x: -1161, y: 81, z: 487, xRot: 20.399935f, yRot: 152.06955f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: -2270, y: 12, z: 1955, xRot: 16.050156f, yRot: -107.25409f }
-		{ dim: "minecraft:the_nether", x: -174, y: 55, z: 269, xRot: 19.649918f, yRot: -55.04898f }
-		{ dim: "minecraft:overworld", x: -2248, y: 137, z: 1992, xRot: 19.800055f, yRot: 86.550064f }
-		{ dim: "minecraft:overworld", x: -2318, y: 81, z: 1941 }
-		{ dim: "minecraft:overworld", x: -2349, y: 98, z: 1938, xRot: 25.049965f, yRot: 13.199997f }
-		{ dim: "minecraft:the_nether", x: -267, y: 106, z: 233, xRot: 30.000011f, yRot: -38.849823f }
-		{ dim: "minecraft:the_nether", x: -562, y: 37, z: 506 }
-		{ dim: "minecraft:the_nether", x: -559, y: 33, z: 515 }
-		{ dim: "minecraft:the_nether", x: -675, y: 22, z: 671 }
 		{ dim: "minecraft:the_nether", x: -736, y: 45, z: 851, xRot: -3.1500957f, yRot: 68.850006f }
+		{ dim: "minecraft:overworld", x: -2319, y: 35, z: 1944, xRot: 28.203278f, yRot: 45.13815f }
+		{ dim: "minecraft:overworld", x: -2307, y: 0, z: 1913, xRot: -1.8571984f, yRot: 17.96403f }
+		{ dim: "minecraft:overworld", x: -2329, y: 10, z: 1962, xRot: -2.4001055f, yRot: 22.795633f }
+		{ dim: "minecraft:overworld", x: -2308, y: 153, z: 1966, xRot: 18.59998f, yRot: 90.44232f }
+		{ dim: "minecraft:overworld", x: -182, y: -13, z: -114, xRot: 34.949978f, yRot: 2.249176f }
+		{ dim: "minecraft:overworld", x: -2327, y: 60, z: 1237 }
+		{ dim: "minecraft:overworld", x: -2323, y: 55, z: 1307 }
+		{ dim: "minecraft:overworld", x: -2304, y: -61, z: 1126, xRot: -89.10002f, yRot: -178.8398f }
+		{ dim: "the_bumblezone:the_bumblezone", x: -622, y: 61, z: 875, xRot: -4.949983f, yRot: -41.849976f }
 	]
 	homes: {
 		home: { dim: "minecraft:overworld", x: -2309, y: 152, z: 1958, xRot: 10.9501505f, yRot: -10.207703f }
