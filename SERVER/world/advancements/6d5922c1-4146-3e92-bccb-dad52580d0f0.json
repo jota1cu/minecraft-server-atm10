@@ -301,6 +301,7 @@
       "minecraft:frozen_ocean": "2026-10-18 07:40:52 +0000",
       "minecraft:frozen_river": "2026-10-18 04:18:17 +0000",
       "minecraft:ocean": "2026-10-18 17:20:18 +0000",
+      "minecraft:jungle": "2026-10-24 06:48:32 +0000",
       "minecraft:birch_forest": "2026-10-22 22:21:50 +0000",
       "minecraft:snowy_beach": "2026-10-18 07:40:40 +0000",
       "minecraft:flower_forest": "2026-10-18 18:42:36 +0000",
@@ -1005,12 +1006,15 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-10-23 01:14:30 +0000",
-      "minecraft:cave_spider": "2026-10-18 07:20:25 +0000",
+      "minecraft:blaze": "2026-10-24 06:15:55 +0000",
       "minecraft:skeleton": "2026-10-18 04:56:17 +0000",
-      "minecraft:stray": "2026-10-18 05:18:51 +0000",
       "minecraft:witch": "2026-10-18 22:27:10 +0000",
-      "minecraft:spider": "2026-10-18 05:20:25 +0000",
       "minecraft:wither_skeleton": "2026-10-22 00:20:07 +0000",
+      "minecraft:cave_spider": "2026-10-18 07:20:25 +0000",
+      "minecraft:piglin": "2026-10-24 06:10:07 +0000",
+      "minecraft:stray": "2026-10-18 05:18:51 +0000",
+      "minecraft:spider": "2026-10-18 05:20:25 +0000",
+      "minecraft:piglin_brute": "2026-10-24 06:07:28 +0000",
       "minecraft:zombie": "2026-10-18 04:58:51 +0000",
       "minecraft:zombie_villager": "2026-10-18 05:03:39 +0000",
       "minecraft:slime": "2026-10-18 23:01:06 +0000"
@@ -1049,6 +1053,7 @@
   },
   "apotheosis:progression/ascent": {
     "criteria": {
+      "uncommon_chest": "2026-10-24 05:37:50 +0000",
       "kill_apothic_invader": "2026-10-18 04:58:51 +0000",
       "uncommon_hand": "2026-10-18 05:26:50 +0000",
       "uncommon_helm": "2026-10-18 04:59:18 +0000",
@@ -1226,7 +1231,8 @@
   },
   "apotheosis:progression/summit": {
     "criteria": {
-      "rare_hand": "2026-10-18 05:26:50 +0000"
+      "rare_hand": "2026-10-18 05:26:50 +0000",
+      "rare_chest": "2026-10-24 05:37:50 +0000"
     },
     "done": false
   },
@@ -2156,15 +2162,27 @@
     },
     "done": true
   },
-  "refinedstorage:upgrading_your_grid": {
+  "supplementaries:recipe/netherite_trapdoor": {
     "criteria": {
-      "crafting_grid_in_inventory": "2026-10-24 05:13:02 +0000"
+      "has_item_minecraft_netherite_scrap_2": "2026-10-24 03:30:56 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/netherite_door": {
+    "criteria": {
+      "has_item_minecraft_netherite_scrap_2": "2026-10-24 03:30:56 +0000"
     },
     "done": true
   },
   "refinedstorage:storing_externally": {
     "criteria": {
       "external_storage_in_inventory": "2026-10-24 05:13:01 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:upgrading_your_grid": {
+    "criteria": {
+      "crafting_grid_in_inventory": "2026-10-24 05:13:02 +0000"
     },
     "done": true
   },
@@ -2180,15 +2198,75 @@
     },
     "done": true
   },
-  "supplementaries:recipe/netherite_trapdoor": {
+  "silentgear:nether_plants": {
     "criteria": {
-      "has_item_minecraft_netherite_scrap_2": "2026-10-24 03:30:56 +0000"
+      "banana": "2026-10-24 06:17:39 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-10-24 06:04:04 +0000"
+    },
+    "done": false
+  },
+  "refinedstorage:drives": {
+    "criteria": {
+      "disk_drive_in_inventory": "2026-10-24 06:37:59 +0000"
     },
     "done": true
   },
-  "supplementaries:recipe/netherite_door": {
+  "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
-      "has_item_minecraft_netherite_scrap_2": "2026-10-24 03:30:56 +0000"
+      "ancient_debris": "2026-10-24 06:08:23 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:storing_items": {
+    "criteria": {
+      "storage_disk_in_inventory": "2026-10-24 06:42:06 +0000"
+    },
+    "done": true
+  },
+  "silentgear:crimson_iron": {
+    "criteria": {
+      "get_ingot": "2026-10-24 06:17:37 +0000"
+    },
+    "done": false
+  },
+  "silentgear:blaze_gold": {
+    "criteria": {
+      "get_item": "2026-10-24 06:12:32 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stonecutting/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-10-24 06:08:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_bridge": "2026-10-24 06:08:00 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/blackstone_lamp": {
+    "criteria": {
+      "has_item_minecraft_blackstone_1": "2026-10-24 06:07:34 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:root": {
+    "criteria": {
+      "controller_in_inventory": "2026-10-24 06:22:49 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-10-24 06:08:35 +0000"
     },
     "done": true
   },
