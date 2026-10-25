@@ -1338,12 +1338,11 @@
     },
     "done": true
   },
-  "farmersdelight:main/plant_all_crops": {
+  "minecraft:story/mine_diamond": {
     "criteria": {
-      "sweet_berries": "2026-10-18 19:04:12 +0000",
-      "brown_mushroom": "2026-10-18 19:04:06 +0000"
+      "diamond": "2026-10-18 18:36:18 +0000"
     },
-    "done": false
+    "done": true
   },
   "tombstone:adventure/strong_or_careful": {
     "criteria": {
@@ -1351,9 +1350,22 @@
     },
     "done": true
   },
-  "minecraft:story/mine_diamond": {
+  "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "diamond": "2026-10-18 18:36:18 +0000"
+      "sweet_berries": "2026-10-18 19:04:12 +0000",
+      "brown_mushroom": "2026-10-18 19:04:06 +0000"
+    },
+    "done": false
+  },
+  "tombstone:event/root": {
+    "criteria": {
+      "halloween": "2026-10-25 00:13:35 +0000"
+    },
+    "done": true
+  },
+  "tombstone:event/halloween": {
+    "criteria": {
+      "coded_trigger": "2026-10-25 00:13:35 +0000"
     },
     "done": true
   },

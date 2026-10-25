@@ -9,7 +9,7 @@
 		9823f61b-98fe-3aab-aed0-4d7e41d3a51b: "member"
 	}
 	properties: {
-		"ftbteams:display_name": "techgod territory"
+		"ftbteams:display_name": "TECHGOD"
 		"ftbteams:description": "333"
 		"ftbteams:color": "#34FF03"
 		"ftbteams:free_to_join": 0b
@@ -26,8 +26,8 @@
 		"ftbchunks:block_interact_mode": "allies"
 		"ftbchunks:entity_interact_mode": "allies"
 		"ftbchunks:nonliving_entity_attack_mode": "allies"
-		"ftbchunks:claim_visibility": "allies"
-		"ftbchunks:location_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "public"
 	}
 	message_history: [
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1792300073814L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"sugurukaos\"],\"color\":\"yellow\"}" }

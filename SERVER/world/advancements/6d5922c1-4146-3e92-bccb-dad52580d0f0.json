@@ -222,6 +222,7 @@
       "grassy_beach": "2026-10-18 17:25:15 +0000",
       "boreal_forest": "2026-10-18 07:43:48 +0000",
       "spires": "2026-10-18 04:18:19 +0000",
+      "glistering_meadow": "2026-10-25 03:20:57 +0000",
       "rocky_meadow": "2026-10-18 17:45:00 +0000",
       "mycotoxic_undergrowth": "2026-10-18 19:05:01 +0000",
       "blackstone_basin": "2026-10-22 00:19:26 +0000",
@@ -231,6 +232,7 @@
       "maple_forest": "2026-10-18 06:41:07 +0000",
       "muddy_river": "2026-10-18 06:41:24 +0000",
       "icy_heights": "2026-10-18 04:23:17 +0000",
+      "infernal_holt": "2026-10-25 03:21:14 +0000",
       "bamboo_forest": "2026-10-18 17:45:59 +0000",
       "cold_boreal_taiga": "2026-10-18 04:15:26 +0000"
     },
@@ -1013,11 +1015,13 @@
       "minecraft:pillager": "2026-10-23 01:14:30 +0000",
       "minecraft:blaze": "2026-10-24 06:15:55 +0000",
       "minecraft:skeleton": "2026-10-18 04:56:17 +0000",
+      "minecraft:phantom": "2026-10-25 02:31:43 +0000",
       "minecraft:witch": "2026-10-18 22:27:10 +0000",
       "minecraft:wither_skeleton": "2026-10-22 00:20:07 +0000",
       "minecraft:cave_spider": "2026-10-18 07:20:25 +0000",
       "minecraft:piglin": "2026-10-24 06:10:07 +0000",
       "minecraft:stray": "2026-10-18 05:18:51 +0000",
+      "minecraft:enderman": "2026-10-25 01:32:32 +0000",
       "minecraft:spider": "2026-10-18 05:20:25 +0000",
       "minecraft:piglin_brute": "2026-10-24 06:07:28 +0000",
       "minecraft:zombie": "2026-10-18 04:58:51 +0000",
@@ -1567,6 +1571,7 @@
   },
   "regions_unexplored:got_wood": {
     "criteria": {
+      "pine_log": "2026-10-25 02:12:25 +0000",
       "larch_log": "2026-10-18 18:55:07 +0000"
     },
     "done": false
@@ -1592,7 +1597,9 @@
   "regions_unexplored:eternal_expedition": {
     "criteria": {
       "mycotoxic_undergrowth": "2026-10-18 19:05:01 +0000",
-      "blackstone_basin": "2026-10-22 00:19:26 +0000"
+      "blackstone_basin": "2026-10-22 00:19:26 +0000",
+      "infernal_holt": "2026-10-25 03:21:14 +0000",
+      "glistering_meadow": "2026-10-25 03:20:57 +0000"
     },
     "done": false
   },
@@ -2205,7 +2212,9 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2026-10-24 06:04:04 +0000"
+      "minecraft:nether_wastes": "2026-10-24 06:04:04 +0000",
+      "minecraft:soul_sand_valley": "2026-10-25 03:21:03 +0000",
+      "minecraft:basalt_deltas": "2026-10-25 03:20:54 +0000"
     },
     "done": false
   },
@@ -2274,6 +2283,54 @@
       "storage_disk_in_inventory": "2026-10-24 06:42:06 +0000"
     },
     "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-10-25 00:46:55 +0000"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2026-10-25 01:29:01 +0000"
+    },
+    "done": true
+  },
+  "silentgear:the_end": {
+    "criteria": {
+      "entered_the_end": "2026-10-25 01:31:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-10-25 01:31:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-10-25 01:31:23 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/end_stone_lamp": {
+    "criteria": {
+      "has_item_minecraft_end_stone_1": "2026-10-25 01:31:44 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:every_bit_of_the_rainbow": {
+    "criteria": {
+      "white_snowbelle": "2026-10-25 02:37:00 +0000"
+    },
+    "done": false
+  },
+  "deeperdarker:main/kill_all_sculk_mobs": {
+    "criteria": {
+      "phantom": "2026-10-25 02:31:43 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }

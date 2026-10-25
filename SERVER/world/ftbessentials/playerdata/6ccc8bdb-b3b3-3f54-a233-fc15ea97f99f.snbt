@@ -3,19 +3,19 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "minecraft:overworld", x: -933, y: 80, z: -934, xRot: 11.84314f, yRot: 134.41447f }
+	last_seen: { dim: "minecraft:overworld", x: 797, y: 56, z: 671, xRot: 47.334175f, yRot: -159.89734f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: 3, y: 95, z: 1, xRot: 57.549435f, yRot: 82.587234f }
-		{ dim: "minecraft:overworld", x: 815, y: 63, z: 715, xRot: 27.673622f, yRot: 149.5049f }
-		{ dim: "minecraft:overworld", x: 9, y: 103, z: -13, xRot: 28.344854f, yRot: -165.29239f }
-		{ dim: "minecraft:overworld", x: 861, y: 63, z: 275, xRot: 9.158621f, yRot: -167.35974f }
-		{ dim: "minecraft:overworld", x: 20620, y: 57, z: -2992, xRot: 82.65719f, yRot: 86.44418f }
-		{ dim: "minecraft:overworld", x: 751, y: -42, z: 697, xRot: -0.56164616f, yRot: -101.610596f }
-		{ dim: "minecraft:overworld", x: 752, y: -43, z: 702, xRot: 24.111889f, yRot: -126.933105f }
-		{ dim: "minecraft:overworld", x: 802, y: -26, z: 741, xRot: 21.545683f, yRot: -7.7056885f }
-		{ dim: "minecraft:overworld", x: 747, y: -54, z: 683, xRot: 65.12886f, yRot: 12.704671f }
-		{ dim: "minecraft:overworld", x: 747, y: -54, z: 683, xRot: 57.67614f, yRot: 119.47241f }
+		{ dim: "minecraft:overworld", x: 798, y: 56, z: 678, xRot: 27.792185f, yRot: -86.67572f }
+		{ dim: "minecraft:overworld", x: -2311, y: 152, z: 1958, xRot: 26.921917f, yRot: 0.6315815f }
+		{ dim: "minecraft:overworld", x: 805, y: 56, z: 676 }
+		{ dim: "minecraft:overworld", x: 896, y: 71, z: 707, xRot: 23.519772f, yRot: 79.64847f }
+		{ dim: "minecraft:overworld", x: 813, y: 56, z: 681, xRot: 33.429054f, yRot: -106.070435f }
+		{ dim: "minecraft:overworld", x: -2330, y: 152, z: 1955, xRot: 21.82075f, yRot: -95.33646f }
+		{ dim: "minecraft:overworld", x: 747, y: -54, z: 683, xRot: 39.3107f, yRot: 48.55664f }
+		{ dim: "minecraft:overworld", x: 747, y: -54, z: 683, xRot: 36.428764f, yRot: 81.411865f }
+		{ dim: "minecraft:overworld", x: 747, y: -54, z: 683, xRot: 36.99024f, yRot: 28.774841f }
+		{ dim: "minecraft:the_nether", x: 128, y: 37, z: -15, xRot: 19.936281f, yRot: 166.48962f }
 	]
 	homes: {
 		casa: { dim: "minecraft:overworld", x: 816, y: 63, z: 708, xRot: 17.686066f, yRot: 2.7087097f }

@@ -221,26 +221,28 @@
     "criteria": {
       "mauve_hills": "2026-10-24 02:09:47 +0000",
       "silver_birch_forest": "2026-10-19 01:49:38 +0000",
-      "frozen_tundra": "2026-10-18 05:33:22 +0000",
-      "cold_river": "2026-10-19 17:24:03 +0000",
       "cold_deciduous_forest": "2026-10-18 05:33:25 +0000",
       "redstone_abyss": "2026-10-23 22:19:11 +0000",
       "boreal_forest": "2026-10-19 17:25:26 +0000",
       "glistering_meadow": "2026-10-23 00:44:35 +0000",
-      "blackwood_taiga": "2026-10-19 16:02:02 +0000",
-      "rocky_meadow": "2026-10-24 02:09:04 +0000",
-      "mycotoxic_undergrowth": "2026-10-18 06:29:21 +0000",
       "blackstone_basin": "2026-10-18 06:29:29 +0000",
-      "gravel_beach": "2026-10-18 18:08:04 +0000",
-      "frozen_pine_taiga": "2026-10-18 05:33:56 +0000",
-      "maple_forest": "2026-10-19 01:50:24 +0000",
       "autumnal_maple_forest": "2026-10-19 17:16:42 +0000",
-      "golden_boreal_taiga": "2026-10-18 18:07:45 +0000",
-      "icy_heights": "2026-10-18 18:05:36 +0000",
       "prismachasm": "2026-10-19 01:54:41 +0000",
       "infernal_holt": "2026-10-23 00:44:32 +0000",
       "bamboo_forest": "2026-10-24 02:08:59 +0000",
       "cold_boreal_taiga": "2026-10-18 04:25:36 +0000",
+      "frozen_tundra": "2026-10-18 05:33:22 +0000",
+      "cold_river": "2026-10-19 17:24:03 +0000",
+      "spires": "2026-10-25 03:31:37 +0000",
+      "blackwood_taiga": "2026-10-19 16:02:02 +0000",
+      "rocky_meadow": "2026-10-24 02:09:04 +0000",
+      "mycotoxic_undergrowth": "2026-10-18 06:29:21 +0000",
+      "gravel_beach": "2026-10-18 18:08:04 +0000",
+      "redwoods": "2026-10-25 03:43:00 +0000",
+      "frozen_pine_taiga": "2026-10-18 05:33:56 +0000",
+      "maple_forest": "2026-10-19 01:50:24 +0000",
+      "golden_boreal_taiga": "2026-10-18 18:07:45 +0000",
+      "icy_heights": "2026-10-18 18:05:36 +0000",
       "bioshroom_caves": "2026-10-19 16:03:38 +0000"
     },
     "done": false
@@ -259,9 +261,11 @@
       "cold_river": "2026-10-19 17:24:03 +0000",
       "cold_deciduous_forest": "2026-10-18 05:33:25 +0000",
       "boreal_forest": "2026-10-19 17:25:26 +0000",
+      "spires": "2026-10-25 03:31:37 +0000",
       "blackwood_taiga": "2026-10-19 16:02:02 +0000",
       "rocky_meadow": "2026-10-24 02:09:04 +0000",
       "gravel_beach": "2026-10-18 18:08:04 +0000",
+      "redwoods": "2026-10-25 03:43:00 +0000",
       "frozen_pine_taiga": "2026-10-18 05:33:56 +0000",
       "maple_forest": "2026-10-19 01:50:24 +0000",
       "autumnal_maple_forest": "2026-10-19 17:16:42 +0000",
@@ -614,16 +618,20 @@
       "biomeswevegone:ironwood_gour": "2026-10-24 02:09:58 +0000",
       "biomeswevegone:orchard": "2026-10-24 02:08:57 +0000",
       "biomeswevegone:crag_gardens": "2026-10-24 02:08:39 +0000",
+      "biomeswevegone:amaranth_grassland": "2026-10-25 03:43:02 +0000",
       "biomeswevegone:weeping_witch_forest": "2026-10-24 02:08:49 +0000",
       "biomeswevegone:skyris_vale": "2026-10-18 05:53:55 +0000",
       "biomeswevegone:coconino_meadow": "2026-10-19 17:16:57 +0000",
       "biomeswevegone:lush_stacks": "2026-10-24 02:09:48 +0000",
+      "biomeswevegone:sierra_badlands": "2026-10-25 03:44:32 +0000",
       "biomeswevegone:maple_taiga": "2026-10-19 17:20:33 +0000",
       "biomeswevegone:pumpkin_valley": "2026-10-18 06:02:13 +0000",
+      "biomeswevegone:baobab_savanna": "2026-10-25 03:44:23 +0000",
       "biomeswevegone:crimson_tundra": "2026-10-18 05:25:59 +0000",
       "biomeswevegone:temperate_grove": "2026-10-19 16:08:17 +0000",
       "biomeswevegone:coniferous_forest": "2026-10-19 02:19:38 +0000",
       "biomeswevegone:forgotten_forest": "2026-10-18 05:57:41 +0000",
+      "biomeswevegone:dacite_ridges": "2026-10-25 03:34:43 +0000",
       "biomeswevegone:rainbow_beach": "2026-10-24 02:09:51 +0000"
     },
     "done": false
@@ -1170,6 +1178,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "sugar_cane": "2026-10-18 06:50:36 +0000",
+      "nether_wart": "2026-10-25 00:55:07 +0000",
       "wheat": "2026-10-18 05:28:50 +0000",
       "carrot": "2026-10-24 02:12:10 +0000"
     },
@@ -2348,6 +2357,72 @@
       "kill_ender_dragon": "2026-10-24 16:59:05 +0000"
     },
     "done": false
+  },
+  "ae2:main/pattern_encoding_terminal": {
+    "criteria": {
+      "certus": "2026-10-25 00:42:14 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lumisene_bottle": {
+    "criteria": {
+      "has_item_minecraft_glass_bottle_2": "2026-10-25 00:58:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-10-25 00:59:48 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:main/find_ancient_city": {
+    "criteria": {
+      "ancient_city": "2026-10-25 02:04:58 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/feather_block": {
+    "criteria": {
+      "has_item_minecraft_feather_1": "2026-10-25 02:40:00 +0000"
+    },
+    "done": true
+  },
+  "eternal_starlight:obtain_orb_of_prophecy": {
+    "criteria": {
+      "has_item": "2026-10-25 03:32:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-10-25 03:57:34 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:igloos": {
+    "criteria": {
+      "in_igloo_grassy": "2026-10-25 03:41:41 +0000"
+    },
+    "done": false
+  },
+  "eternal_starlight:challenge_gatekeeper": {
+    "criteria": {
+      "challenged": "2026-10-25 03:31:39 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_sea_serpent": {
+    "criteria": {
+      "killed_fire_dragon": "2026-10-25 03:37:57 +0000"
+    },
+    "done": true
+  },
+  "eternal_starlight:obtain_seeking_eye": {
+    "criteria": {
+      "has_item": "2026-10-25 03:32:30 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
